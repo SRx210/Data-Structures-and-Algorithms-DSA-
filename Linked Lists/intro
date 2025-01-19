@@ -2,3 +2,7 @@ Introduction
 
 A basic data structure called a linked list comprises nodes, or units, with a value and a reference or pointer to the node after it in the chain. 
 Compared to other data structures, the main advantage of a linked list data structure is the effective addition and removal of components from any point in the list.
+
+There are two types of Linked List
+- Singly Linked List
+- Doubly Linked List
