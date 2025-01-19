@@ -7,7 +7,7 @@
 
 <ol>
   <li>Linear Data Strucutre</li>
-  <li>Non Linear Data Structure/li>
+  <li>Non Linear Data Structure</li>
 </ol>
 
 <h1>Linear Data Structure</h1>
