@@ -1,1 +1,11 @@
+What is Stacks?
+
+Stacks is a linear data structure which follows First In Last Out (FILO). FILO implies that the element that is inserted first, comes out last.
+Stack in simple words does:
+Pushing an element onto the stack is like adding a new plate on top on dishes.
+Popping an element removes the top plate from the stack (plie of dishes).
+
+Why Stacks?
+Stack enables all data to operations at one end only. 
+So the only element that can be removed is the element at the top of the stack, and only one item can be read or removed at a given time.
 
