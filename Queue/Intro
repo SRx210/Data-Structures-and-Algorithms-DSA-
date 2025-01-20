@@ -2,3 +2,7 @@ What is Queue?
 
 Queue is a linear data structure which follows First In First Out (FIFO).
 Where the first element added to the queue is the first one to be removed.
+
+
+Why Queue?
+hey are important for organizing and managing data in many applications, including operating systems, network protocols, and data processing pipelines.
