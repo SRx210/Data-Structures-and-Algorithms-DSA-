@@ -1,0 +1,4 @@
+What is Queue?
+
+Queue is a linear data structure which follows First In First Out (FIFO).
+Where the first element added to the queue is the first one to be removed.
