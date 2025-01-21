@@ -1,1 +1,15 @@
+Infix, prefix, and postfix are three ways to write expressions in data structures. 
+They are used to write arithmetic and logical expressions
 
+
+Infix     
+The most common way to write expressions Operators are written between operands.
+For example, \(A+B\) Easy to read for humans, Difficult for computers to parse because they need information about operator precedence, associativity rules, and brackets
+
+Prefix     
+Operators are written before operands 
+For example, \(+AB\) Can be evaluated and parsed faster by machines than infix notation       
+
+Postfix     
+Operators are written after operands Also known as "Reverse Polish notation" 
+For example, \(AB+\) Can be evaluated and parsed faster by machines than infix notation
