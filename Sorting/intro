@@ -1,1 +1,14 @@
+Merge Sort and Quick Sort are two widely used divide-and-conquer algorithms for sorting.
 
+Merge Sort
+Algorithm
+Divide: Recursively split the array into two halves until each subarray contains a single element (base case).
+Conquer: Merge the subarrays back together in a sorted order.
+Combine: Combine the sorted subarrays to produce the final sorted array.
+
+
+Quick Sort
+Algorithm
+Choose a Pivot: Select a pivot element (can be the first, last, middle, or random element).
+Partition: Rearrange the elements such that all elements less than the pivot are on the left, and all elements greater are on the right.
+Recurse: Recursively apply the process to the left and right subarrays.
