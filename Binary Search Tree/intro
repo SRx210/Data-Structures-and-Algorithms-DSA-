@@ -1,1 +1,62 @@
+# Binary Search Tree (BST) Implementation
 
+## Overview
+
+A **Binary Search Tree (BST)** is a type of binary tree where each node has at most two children, referred to as the left and right child. For each node in the tree:
+- The left child’s value is **less than** its parent node's value.
+- The right child’s value is **greater than** its parent node's value.
+
+This structure allows for efficient searching, insertion, and deletion of values, making it a fundamental data structure in computer science.
+
+In this repository, we provide an implementation of a Binary Search Tree in [Your Preferred Language].
+
+## Features
+- **Insertion**: Add elements to the tree while maintaining the BST properties.
+- **Searching**: Find elements in the tree efficiently.
+- **Deletion**: Remove elements from the tree, ensuring the BST properties are preserved.
+- **Traversal**: Perform in-order, pre-order, and post-order traversals.
+  
+## Structure
+
+The BST consists of the following components:
+1. **Node**: Each node contains a value, a reference to its left child, and a reference to its right child.
+2. **BST Tree**: A class or structure that provides methods to insert, delete, search, and traverse the tree.
+
+## Basic Operations
+
+### 1. Insertion
+Inserting a node involves finding the appropriate location in the tree based on the node’s value and inserting it in the correct position while maintaining the BST property.
+
+### 2. Search
+To search for a value in the BST, you start from the root and traverse the tree, going left if the value is smaller or right if it’s larger.
+
+### 3. Deletion
+Deleting a node from a BST involves three cases:
+- **Leaf Node**: Simply remove the node.
+- **Node with One Child**: Replace the node with its child.
+- **Node with Two Children**: Find the in-order successor or predecessor, replace the node, and then delete the successor or predecessor node.
+
+### 4. Traversals
+- **In-order Traversal**: Visit left subtree, then root, then right subtree (produces sorted order).
+- **Pre-order Traversal**: Visit root, then left subtree, then right subtree.
+- **Post-order Traversal**: Visit left subtree, then right subtree, then root.
+
+## Example Usage
+
+```python
+# Example usage in Python
+
+# Create a Binary Search Tree
+bst = BST()
+
+# Insert values
+bst.insert(10)
+bst.insert(5)
+bst.insert(20)
+bst.insert(8)
+
+# Search for a value
+bst.search(10)  # Returns True
+
+# In-order traversal
+bst.in_order_traversal()  # [5, 8, 10, 20]
